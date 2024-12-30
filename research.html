@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemedicine Portal</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Telemedicine Portal</h1>
+    </header>
+    
+    <main>
+        <form id="telemedicine-form">
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" id="phone-number" name="phone-number">
+
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="height">Height:</label>
+            <input type="text" id="height" name="height">
+
+            <label for="weight">Weight:</label>
+            <input type="text" id="weight" name="weight">
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+
+            <label for="blood-group">Blood Group:</label>
+            <input type="text" id="blood-group" name="blood-group">
+
+            <label for="allergies">Allergies (if any):</label>
+            <input type="text" id="allergies" name="allergies">
+
+            <label for="medication">Medication (if already given):</label>
+            <input type="text" id="medication" name="medication">
+
+            <label for="emergency-contact-name">Emergency Contact Name:</label>
+            <input type="text" id="emergency-contact-name" name="emergency-contact-name">
+
+            <label for="emergency-contact-number">Emergency Contact Number:</label>
+            <input type="tel" id="emergency-contact-number" name="emergency-contact-number">
+
+            <label for="appointment-date">Date of Appointment:</label>
+            <input type="date" id="appointment-date" name="appointment-date">
+
+            <label for="upload-file">Upload File (if you are already registered):</label>
+            <input type="file" id="upload-file" name="upload-file">
+
+            <!-- Button to contact doctor if the patient has used the service before -->
+            <button type="submit">Contact Doctor</button>
+
+            <!-- Button to generate smart contract if it's the patient's first time -->
+            <button type="button" id="generate-contract">Generate Smart Contract</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Medical Records DApp. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
